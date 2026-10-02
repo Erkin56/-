@@ -250,11 +250,14 @@ def build():
     entries = load_vocab()
     sections = []
     annotation_lines = []
+    global missing
+    missing = []
     for name in ORDER:
         path = os.path.join(SRC, name)
         if not os.path.exists(path):
-            print("ОТСУТСТВУЕТ ФАЙЛ:", name, file=sys.stderr)
-            sys.exit(1)
+            print("ОТСУТСТВУЕТ ФАЙЛ (пропущен):", name, file=sys.stderr)
+            missing.append(name)
+            continue
         with open(path, encoding="utf-8") as f:
             text = f.read()
         if "%%VOCAB_KY_RU%%" in text:
@@ -372,6 +375,7 @@ def check(out_path, xml, entries):
     report["selfcheck_tasks"] = len(re.findall(r"<p><strong>Проверьте себя", xml))
     report["vocab_entries"] = len(entries)
     report["kyrgyz_letters_present"] = all(ch in xml for ch in "ңөүҢӨҮ")
+    report["missing_files"] = missing
     report["file"] = out_path
     report["size_bytes"] = os.path.getsize(out_path)
     report["pages_estimate_1800_chars"] = round(len(text_only) / 1800)
