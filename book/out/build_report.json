@@ -1,15 +1,8 @@
 {
   "xml_well_formed": true,
   "mixed_sections": [],
-  "leftovers": {
-    "**": 1,
-    "и так далее": 1
-  },
-  "mixed_script_words": [
-    "СпособПримерРусскийX",
-    "жирныйX",
-    "сахаромX"
-  ],
+  "leftovers": {},
+  "mixed_script_words": [],
   "lessons_found": [
     1,
     2,
@@ -28,53 +21,44 @@
     15,
     16,
     17,
-    18
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
   ],
   "reviews_found": [
     "Повторение 1 (уроки 1–6)",
     "Повторение 2 (уроки 7–12)",
     "Повторение 3 (уроки 13–18)",
+    "Повторение 4 (уроки 19–24)",
     "Повторение 1",
     "Повторение 2",
-    "Повторение 3"
+    "Повторение 3",
+    "Повторение 4"
   ],
-  "has_final_test": false,
-  "has_keys": false,
-  "has_dict_ky_ru": false,
-  "has_dict_ru_ky": false,
-  "has_appendices": false,
-  "needs_check_marks": 2,
-  "word_count": 56738,
-  "chars": 416663,
-  "exercise_count": 444,
-  "selfcheck_tasks": 162,
-  "vocab_entries": 1224,
+  "has_final_test": true,
+  "has_keys": true,
+  "has_dict_ky_ru": true,
+  "has_dict_ru_ky": true,
+  "has_appendices": true,
+  "needs_check_marks": 4,
+  "word_count": 90937,
+  "chars": 679498,
+  "exercise_count": 319,
+  "selfcheck_tasks": 184,
+  "needs_check_locations": [
+    "кайтым — сдача [ТРЕБУЕТ ПРОВЕРКИ КЫРГЫЗИСТОМ]",
+    "сыя көк — фиолетовый [ТРЕБУЕТ ПРОВЕРКИ КЫРГЫЗИСТОМ]",
+    "кайтым — сдача (деньги) [ТРЕБУЕТ ПРОВЕРКИ КЫРГЫЗИСТОМ] (урок 10)",
+    "сыя көк — фиолетовый [ТРЕБУЕТ ПРОВЕРКИ КЫРГЫЗИСТОМ] (урок 14)"
+  ],
+  "vocab_entries": 1466,
   "kyrgyz_letters_present": true,
-  "missing_files": [
-    "lesson_19.txt",
-    "lesson_20.txt",
-    "lesson_21.txt",
-    "lesson_22.txt",
-    "lesson_23.txt",
-    "lesson_24.txt",
-    "review_4.txt",
-    "final_test.txt",
-    "phrases_100.txt",
-    "keys_head.txt",
-    "keys_19.txt",
-    "keys_20.txt",
-    "keys_21.txt",
-    "keys_22.txt",
-    "keys_23.txt",
-    "keys_24.txt",
-    "keys_review_4.txt",
-    "keys_final_test.txt",
-    "dict_ky_ru.txt",
-    "dict_ru_ky.txt",
-    "appendices.txt",
-    "sources.txt"
-  ],
+  "missing_files": [],
   "file": "/home/user/-/book/out/Кыргызский язык с нуля. Самоучитель для русскоговорящих.fb2",
-  "size_bytes": 869214,
-  "pages_estimate_1800_chars": 231
+  "size_bytes": 1447707,
+  "pages_estimate_1800_chars": 377
 }

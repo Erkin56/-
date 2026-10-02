@@ -374,8 +374,20 @@ def check(out_path, xml, entries):
     words = re.findall(r"[\w’'-]+", text_only)
     report["word_count"] = len(words)
     report["chars"] = len(text_only)
-    report["exercise_count"] = len(re.findall(r"<p><strong>Упражнение \d+", xml))
-    report["selfcheck_tasks"] = len(re.findall(r"<p><strong>Проверьте себя", xml))
+    # подсчёт упражнений по исходникам (без ключей)
+    ex = selfc = 0
+    for name in ORDER:
+        if name.startswith("keys") or name.startswith("dict") or name in ("appendices.txt", "sources.txt", "phrases_100.txt"):
+            continue
+        path = os.path.join(SRC, name)
+        if not os.path.exists(path):
+            continue
+        txt = open(path, encoding="utf-8").read()
+        ex += len(re.findall(r"^\*\*(Упражнение|Задание) [\d.]+\*\*", txt, re.M))
+        selfc += len(re.findall(r"^\*\*Проверьте себя \d+\.\*\*", txt, re.M))
+    report["exercise_count"] = ex
+    report["selfcheck_tasks"] = selfc
+    report["needs_check_locations"] = [l.strip()[:90] for l in text_only.split("\n") if "ТРЕБУЕТ ПРОВЕРКИ" in l]
     report["vocab_entries"] = len(entries)
     report["kyrgyz_letters_present"] = all(ch in xml for ch in "ңөүҢӨҮ")
     report["missing_files"] = missing
