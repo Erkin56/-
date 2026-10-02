@@ -356,6 +356,9 @@ def check(out_path, xml, entries):
         if n:
             leftovers[label] = n
     report["leftovers"] = leftovers
+    mixed = sorted(set(w for w in re.findall(r"[A-Za-zА-Яа-яЁёҢңӨөҮү]+", text_only)
+                       if re.search(r"[A-Za-z]", w) and re.search(r"[А-Яа-яЁёҢңӨөҮү]", w)))
+    report["mixed_script_words"] = mixed[:50]
     # 4. required parts
     titles = re.findall(r"<title><p>(.*?)</p></title>", xml)
     titles_plain = [re.sub(r"<[^>]+>", "", t) for t in titles]

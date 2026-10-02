@@ -2,8 +2,10 @@
   "xml_well_formed": true,
   "mixed_sections": [],
   "leftovers": {},
+  "mixed_script_words": [],
   "lessons_found": [
-    1
+    1,
+    2
   ],
   "reviews_found": [],
   "has_final_test": false,
@@ -12,14 +14,13 @@
   "has_dict_ru_ky": false,
   "has_appendices": false,
   "needs_check_marks": 0,
-  "word_count": 6367,
-  "chars": 45703,
-  "exercise_count": 16,
-  "selfcheck_tasks": 9,
-  "vocab_entries": 64,
+  "word_count": 9040,
+  "chars": 65931,
+  "exercise_count": 36,
+  "selfcheck_tasks": 18,
+  "vocab_entries": 137,
   "kyrgyz_letters_present": true,
   "missing_files": [
-    "lesson_02.txt",
     "lesson_03.txt",
     "lesson_04.txt",
     "lesson_05.txt",
@@ -49,7 +50,6 @@
     "final_test.txt",
     "phrases_100.txt",
     "keys_head.txt",
-    "keys_02.txt",
     "keys_03.txt",
     "keys_04.txt",
     "keys_05.txt",
@@ -83,6 +83,6 @@
     "sources.txt"
   ],
   "file": "/home/user/-/book/out/Кыргызский язык с нуля. Самоучитель для русскоговорящих.fb2",
-  "size_bytes": 93600,
-  "pages_estimate_1800_chars": 25
+  "size_bytes": 137187,
+  "pages_estimate_1800_chars": 37
 }
