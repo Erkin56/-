@@ -1,9 +1,14 @@
 {
   "xml_well_formed": true,
   "mixed_sections": [],
-  "leftovers": {},
+  "leftovers": {
+    "**": 1,
+    "и так далее": 1
+  },
   "mixed_script_words": [
-    "достoрум"
+    "СпособПримерРусскийX",
+    "жирныйX",
+    "сахаромX"
   ],
   "lessons_found": [
     1,
@@ -14,36 +19,38 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
   ],
   "reviews_found": [
     "Повторение 1 (уроки 1–6)",
-    "Повторение 1"
+    "Повторение 2 (уроки 7–12)",
+    "Повторение 3 (уроки 13–18)",
+    "Повторение 1",
+    "Повторение 2",
+    "Повторение 3"
   ],
   "has_final_test": false,
   "has_keys": false,
   "has_dict_ky_ru": false,
   "has_dict_ru_ky": false,
   "has_appendices": false,
-  "needs_check_marks": 0,
-  "word_count": 29309,
-  "chars": 214963,
-  "exercise_count": 204,
-  "selfcheck_tasks": 81,
-  "vocab_entries": 654,
+  "needs_check_marks": 2,
+  "word_count": 56738,
+  "chars": 416663,
+  "exercise_count": 444,
+  "selfcheck_tasks": 162,
+  "vocab_entries": 1224,
   "kyrgyz_letters_present": true,
   "missing_files": [
-    "lesson_10.txt",
-    "lesson_11.txt",
-    "lesson_12.txt",
-    "review_2.txt",
-    "lesson_13.txt",
-    "lesson_14.txt",
-    "lesson_15.txt",
-    "lesson_16.txt",
-    "lesson_17.txt",
-    "lesson_18.txt",
-    "review_3.txt",
     "lesson_19.txt",
     "lesson_20.txt",
     "lesson_21.txt",
@@ -54,17 +61,6 @@
     "final_test.txt",
     "phrases_100.txt",
     "keys_head.txt",
-    "keys_10.txt",
-    "keys_11.txt",
-    "keys_12.txt",
-    "keys_review_2.txt",
-    "keys_13.txt",
-    "keys_14.txt",
-    "keys_15.txt",
-    "keys_16.txt",
-    "keys_17.txt",
-    "keys_18.txt",
-    "keys_review_3.txt",
     "keys_19.txt",
     "keys_20.txt",
     "keys_21.txt",
@@ -79,6 +75,6 @@
     "sources.txt"
   ],
   "file": "/home/user/-/book/out/Кыргызский язык с нуля. Самоучитель для русскоговорящих.fb2",
-  "size_bytes": 451178,
-  "pages_estimate_1800_chars": 119
+  "size_bytes": 869214,
+  "pages_estimate_1800_chars": 231
 }
