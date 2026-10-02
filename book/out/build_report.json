@@ -2,33 +2,37 @@
   "xml_well_formed": true,
   "mixed_sections": [],
   "leftovers": {},
-  "mixed_script_words": [],
+  "mixed_script_words": [
+    "достoрум"
+  ],
   "lessons_found": [
     1,
-    2
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
   ],
-  "reviews_found": [],
+  "reviews_found": [
+    "Повторение 1 (уроки 1–6)",
+    "Повторение 1"
+  ],
   "has_final_test": false,
   "has_keys": false,
   "has_dict_ky_ru": false,
   "has_dict_ru_ky": false,
   "has_appendices": false,
   "needs_check_marks": 0,
-  "word_count": 9040,
-  "chars": 65931,
-  "exercise_count": 36,
-  "selfcheck_tasks": 18,
-  "vocab_entries": 137,
+  "word_count": 29309,
+  "chars": 214963,
+  "exercise_count": 204,
+  "selfcheck_tasks": 81,
+  "vocab_entries": 654,
   "kyrgyz_letters_present": true,
   "missing_files": [
-    "lesson_03.txt",
-    "lesson_04.txt",
-    "lesson_05.txt",
-    "lesson_06.txt",
-    "review_1.txt",
-    "lesson_07.txt",
-    "lesson_08.txt",
-    "lesson_09.txt",
     "lesson_10.txt",
     "lesson_11.txt",
     "lesson_12.txt",
@@ -50,14 +54,6 @@
     "final_test.txt",
     "phrases_100.txt",
     "keys_head.txt",
-    "keys_03.txt",
-    "keys_04.txt",
-    "keys_05.txt",
-    "keys_06.txt",
-    "keys_review_1.txt",
-    "keys_07.txt",
-    "keys_08.txt",
-    "keys_09.txt",
     "keys_10.txt",
     "keys_11.txt",
     "keys_12.txt",
@@ -83,6 +79,6 @@
     "sources.txt"
   ],
   "file": "/home/user/-/book/out/Кыргызский язык с нуля. Самоучитель для русскоговорящих.fb2",
-  "size_bytes": 137187,
-  "pages_estimate_1800_chars": 37
+  "size_bytes": 451178,
+  "pages_estimate_1800_chars": 119
 }
